@@ -1,0 +1,138 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+}
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.grid.wide {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.gird {
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+.button__view {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+.button__view-more {
+    width: 150px;
+    padding: 0;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(110 106 163);
+    transition: transform 0.2s ease-in;
+}
+.button__view-more:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+.button__view-more-link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: var(--while-color);
+    font-size: 1.8rem;
+    padding: 10px 20px;
+}
+.view-post {
+    float: right;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;   
+    margin-top: 14px;
+    margin-right: 22px;
+}
+.product__item-buy {
+    cursor: pointer;
+    float: right;
+    margin: 20px 10px 0 0;
+    border-radius: 14px;
+    padding: 6px 16px;
+    font-size: var(--font);
+    color: var(--text-color);
+    border: none;
+    font-size: 1.4rem;
+    background-color: rgb(182 181 205);
+}
+:root {
+    --while-color:#fff;
+    --main-color:rgb(26 148 255);
+    --button-color: rgb(255 57 69);
+    --boder-radius: 2px;
+    --box-shadow: 1px 1px 2px rgba(134,111,121,1);
+    --text-color: #333;
+    --text-hover: #eb7c26;
+    --font: 1.6rem;
+    --height-header: 180px;
+    --height-header-search: 100px;
+    --height-navbar-header: 40px;
+    --background: radial-gradient(circle, rgba(134,111,121,1) 0%, rgba(156,170,187,1) 100%);
+}
+.product__shop-body .col {
+    margin-bottom: 10px;
+}
+.blog__outstanding .button__view-more {
+    float: right;
+    margin-right: 20px;
+}
+/* chuyển động khi hover */
+@keyframes up {
+    from {
+        opacity: 0;
+        top: calc( 100% + 50px);
+    }
+    to {
+        opacity: 1;
+        top: calc( 100% + 2px);
+    }
+}
+@keyframes grow {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+/* animation hover */
+.navbar__header-item-news-link:hover a {
+    color: var(--text-hover);
+    transform:  translate(0, -6px);
+    transition: 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+/* circle one, circle two */
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(125deg, transparent 15%, rgba(156,170,187,1));
+}
+.circle.one {
+    width: 130px;
+    height: 130px;
+    top: 130px;
+    right: -40px;
+}
+.circle.two {
+    width: 80px;
+    height: 80px;
+    top: 10px;
+    right: 30px;
+}
+

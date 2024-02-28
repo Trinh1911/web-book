@@ -1,0 +1,29 @@
+/* mobile and tablet */
+@media (max-width: 1023px) {
+    .header {
+        height: 140px;
+    }
+    .navbar__header {
+        display: none;
+    }
+    
+}
+/* mobile */
+@media (max-width: 739px) {
+    .header__with-search-logo {
+        font-size: 2rem;
+    }
+}
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .header__with-search-logo {
+        font-size: 3rem;
+    }
+    .slider__introduce-title {
+        font-size: 4rem;
+    }
+    .slider__container {
+        padding-bottom: 20px;
+        padding-top: 40px;
+    }
+}

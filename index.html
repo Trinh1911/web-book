@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronomy & Shop</title>
+    <!-- chuẩn css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+    <!-- nhúng fonts icons -->
+    <link rel="stylesheet" href="./accest/fonts/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css">
+   <!-- nhúng link css -->
+    <link rel="stylesheet" href="./accest/css/base.css">
+    <link rel="stylesheet" href="./accest/css/main.css">
+    <link rel="stylesheet" href="./accest/css/grid.css">
+    <link rel="stylesheet" href="./accest/css/reponsive.css">
+</head>
+    <div class="app">
+        <!-- header -->
+        <div class="header">
+            <div class="grid wide">
+                <!--header navbar -->
+                <div class="navbar__header">
+                    <ul class="navbar__header-list">
+                        <li class="navbar__header-item">
+                            <a href="" class="navbar__header-item-link">
+                                <i class="far fa-question-circle"></i>
+                                Help
+                            </a>
+                        </li>
+                        <li class="navbar__header-item">
+                            <a href="" class="navbar__header-item-link">
+                                <i class="far fa-newspaper"></i>
+                                News
+                            </a>
+                            <div class="navbar__header-item-news">
+                                <div class="navbar__header-item-news-head">
+                                    News
+                                </div>
+                                <ul class="navbar__header-item-news-body">
+                                    <li class="navbar__header-item-news-link">
+                                        <img src="./accest/img/Ho_den.jpg" alt="" class="navbar__header-item-news-img">
+                                        <a href="https://www.sciencedaily.com/releases/2022/07/220713114600.htm">Astronomers detect "Heartbeat" radio waves billions of light years from Earth</a>
+                                    </li>
+                                    <li class="navbar__header-item-news-link">
+                                        <img src="./accest/img/Bennu_planet.jpg" alt="" class="navbar__header-item-news-img">
+                                        <a href="https://www.sciencedaily.com/releases/2022/07/220707142419.htm">New insights into the surface structure of asteroid Bennu</a>
+                                    </li>
+                                    <li class="navbar__header-item-news-link">
+                                        <img src="./accest/img/Sao_hoa.jpg" alt="" class="navbar__header-item-news-img">
+                                        <a href="https://www.sciencedaily.com/releases/2022/06/220616141516.htm">Theory of planet formation inversion of the Martian meteorite</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="navbar__header-item">
+                            <a href="" class="navbar__header-item-link">
+                                <i class="fas fa-balance-scale-left"></i>
+                                Sale
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navbar__header-list">
+                        <div class="navbar__header-item">
+                            <a href="" class="navbar__header-item-link">
+                                <i class="fa-solid fa-id-card"></i>
+                                Contact us
+                            </a>
+                        </div>
+                        <div class="navbar__header-item">
+                            <a href="" class="navbar__header-item-link">
+                                <i class="fas fa-clipboard-check"></i>
+                                Order check
+                            </a>
+                        </div>
+                        <div class="navbar__header-item">
+                            <a href="" class="navbar__header-item-link">
+                                <i class="fas fa-user"></i>
+                                Log in
+                            </a>
+                        </div>
+                        <div class="navbar__header-item">
+                            <a href="" class="navbar__header-item-link">
+                                <i class="fas fa-hands-helping"></i>
+                                Register
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+                <!-- end navbar -->
+                <!-- header search -->
+                <div class="header__with-search">
+                    <!-- logo -->
+                    <a href="#" class="header__with-search-logo">KT Astronomy</a>
+                    <!-- input search -->
+                    <div class="header__search">
+                        <div class="header__search-wrap">
+                            <input type="text" placeholder="Enter the astronomical information or the book you are looking for" class="header__search-input">
+                        </div>
+                        <i class="header__search-icon fab fa-searchengin"></i>
+                    </div>
+                    <!-- cart -->
+                    <div class="header__search-cart">
+                        <i class="fab fa-opencart"></i>
+                    </div>
+                </div>
+                <!-- end header__search -->
+                <!-- end gird -->
+            </div>
+            <div class="summary__web">
+                <ul class="summary__web-list">
+                    <li class="summary__web-item">
+                        <a href="#" class="summary__web-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="summary__web-item__active">
+                        <a href="" class="summary__web-link summarry__active">
+                            Shop
+                        <i class="fas fa-angle-down"></i>
+                        </a>
+                        <div class="mega-content">
+                            <div class="row sm-gutter">
+                                <div class="col l-4 m-6 c-12">
+                                    <ul class="mega-list">
+                                        <h3>Topics</h3>
+                                        <li>Humans in Space</li>
+                                        <li>Moon To Mars</li>
+                                        <li>Flight</li>
+                                    </ul>
+                                </div>
+                                <div class="col l-4 m-6 c-12">
+                                    <ul class="mega-list"> 
+                                        <h3>Missions</h3>
+                                        <li>Dart</li>
+                                        <li>Commercial Crew</li>
+                                        <li>Parker Solar Probe</li>
+                                    </ul>
+                                </div>
+                                <div class="col l-4 m-6 c-12">
+                                    <ul class="mega-list">
+                                        <h3>Galleries</h3>
+                                        <li>Image Of The Day</li>
+                                        <li>Usage And Copyright</li>
+                                    </ul>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="summary__web-item">
+                        <a href="" class="summary__web-link">
+                            Blog
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- container -->
+        <div class="container">
+            <!-- slide  -->
+            <div class="slider__introduce">
+                <div class="row sm-gutter">
+                    <div class="slider__container">
+                        <div class="col l-4 m-4 c-0 slider__introduce-title">
+                            NASA Taps Axiom Space for First Artemis Moonwalking Spacesuits
+                        </div>
+                        <div class="col l-8 m-8 c-12 slider__introduce-img">
+                        <img src="./accest/img/phihanhgia.png" alt="">
+                        <button class="button__view">
+                            <a href="https://www.nasa.gov/press-release/nasa-taps-axiom-space-for-first-artemis-moonwalking-spacesuits" class="view__link">View</a>
+                        </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- content -->
+            <div class="new_post">
+                <div class="row sm-gutter">
+                    <div class="col l-3">
+                        <a href="https://www.nasa.gov/feature/goddard/2022/nasas-hubble-finds-spiraling-stars-providing-window-into-early-universe" class="new_post-link">
+                            <div class="new_post-head">
+                                <h3>NASA's Hubble Finds Spiraling Stars, Providing Window into Early Universe</h3>
+                                <button class="view-post">view</button>
+                            </div>
+                            <div class="new_post-img" style="background-image: url(./accest/img/spiraling_stars.jpg);"></div>
+                        </a>
+                    </div>
+                    <div class="col l-3">
+                        <a href="https://www.nasa.gov/image-feature/goddard/2022/hubble-observes-a-glittering-gathering-of-stars" class="new_post-link">
+                            <div class="new_post-head">
+                                <h3>Hubble Observes a Glittering Gathering of Stars</h3>
+                                <button class="view-post">view</button>
+                            </div>
+                            <div class="new_post-img" style="background-image: url(./accest/img/hubble-stars.jpg);"></div>
+                        </a>
+                    </div>
+                    <div class="col l-3">
+                        <a href="https://www.nasa.gov/image-feature/goddard/2022/hubble-views-a-galactic-marvel" class="new_post-link">
+                            <div class="new_post-head">
+                                <h3>Hubble Views a Galactic Marvel</h3>
+                                <button class="view-post">view</button>
+                            </div>
+                            <div class="new_post-img" style="background-image: url(./accest/img/Galactic_Marvel.jpg);"></div>
+                        </a>
+                    </div>
+                    <div class="col l-3">
+                        <a href="https://www.nasa.gov/feature/jpl/nasa-telescope-spots-highest-energy-light-ever-detected-from-jupiter" class="new_post-link">
+                            <div class="new_post-head">
+                                <h3>NASA Telescope Spots Highest-Energy Light Ever Detected From Jupiter
+                                </h3>
+                                <button class="view-post">view</button>
+                            </div>
+                            <div class="new_post-img" style="background-image: url(./accest/img/Jupiter.jpg);"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- product -->
+            <div class="product__shop">
+                <div class="grid wide">
+                    <div class="row sm-gutter">
+                        <div class="product__shop-head">
+                            <h1 class="product__shop-title">
+                                Best astronomy books
+                            </h1>
+                            <p class="product__shop-subtitle">
+                                Explore the cosmos and find your way around the night sky with the best astronomy books.
+                            </p>
+                        </div>
+                        <div class="product__shop-body">
+                            <div class="row sm-gutter">
+                                <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/a_self_teaching_guide-removebg-preview.png" alt="" class="product__item-img">
+                                        <div class="product__item-price">$18,26</div>
+                                        <h2 class="product__item-name">Astronomy: A Self-Teaching Guide, Eighth Edition</h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">1200 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                                   <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/history_of_black_holes-removebg-preview.png" alt="" class="product__item-img">
+                                        <div class="product__item-price">$26,96</div>
+                                        <h2 class="product__item-name">And why nearly everything you know about them is wrong Hardcover</h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">900 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                                   <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/earth_and_space-removebg-preview.png" alt="" class="product__item-img">
+                                        <div class="product__item-price">$25,42</div>
+                                        <h2 class="product__item-name">Photographs from the Archives of NASA </h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">640 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                                   <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/quantum_physis-removebg-preview.png" alt="" class="product__item-img">
+                                        <div class="product__item-price">$18,45</div>
+                                        <h2 class="product__item-name">Discover all the important features of Quantum Physics and the Law of Attraction</h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">920 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                                   <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/relativity_albert_einstein-removebg-preview.png" alt="" class="product__item-img">
+                                        <div class="product__item-price">$9.95</div>
+                                        <h2 class="product__item-name">Relativity: The Special and General Theory</h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">550 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                                   <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/the_fabid_of_the_cosmos-removebg-preview.png" alt="" class="product__item-img">
+                                        <div class="product__item-price">$15,88</div>
+                                        <h2 class="product__item-name">The Fabric of the Cosmos: Space, Time, and the Texture of Reality Paperback</h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">720 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                                   <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/cosmos-removebg-preview.png" alt="" class="product__item-img">
+                                        <div class="product__item-price">$14,79</div>
+                                        <h2 class="product__item-name">Cosmos is one of the bestselling science books of all time</h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">8000 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                                   <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/the_end_of_everything.jpg" alt="" class="product__item-img">
+                                        <div class="product__item-price">$12,96</div>
+                                        <h2 class="product__item-name">The End of Everything: (Astrophysically Speaking) </h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">231 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                                   <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/cosmos_a_personal_voyage-removebg-preview.png" alt="" class="product__item-img">
+                                        <div class="product__item-price">$17,74</div>
+                                        <h2 class="product__item-name">Cosmos: A Personal Voyage </h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">240 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                                   <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/turn_left_at_orion-removebg-preview.png" alt="" class="product__item-img">
+                                        <div class="product__item-price">$30,25</div>
+                                        <h2 class="product__item-name"> Hundreds of Night Sky Objects to See in a Home Telescope - and How to Find Them</h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">750 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                                   <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/a_brief_history_of_time.jpg" alt="" class="product__item-img">
+                                        <div class="product__item-price">$16.25</div>
+                                        <h2 class="product__item-name">A Brief History of Time: And Other Essays Hardcover</h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">550 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                                   <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/lecture_tutorials.jpg" alt="" class="product__item-img">
+                                        <div class="product__item-price">$56,99</div>
+                                        <h2 class="product__item-name">Lecture-Tutorials for Introductory Astronomy</h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">3200 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                            </div>
+                            <button class="button__view-more">
+                                <a href="" class="button__view-more-link">View More</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- blog -->
+            <div class="blog__outstanding">
+                <div class="grid wide">
+                    <div class="row sm-gutter">
+                        <!-- supernova -->
+                        <div class="supernova">
+                            <div class="col l-5">
+                                <img src="./accest/img/Stellar_Explosion.jpg" alt="" class="blog__outstanding-img">
+                                <h2 class="blog__outstanding-title-heading">Supernova</h2>
+                            </div>
+                            <div class="col l-7">
+                                <div class="blog__outstanding-body">
+                                    <div class="blog__outstanding-body--title">
+                                        Setting the Clock on a Stellar Explosion
+                                    </div>
+                                    <div class="blog__outstanding-body--subtitle">
+                                        Image credit: X-ray: NASA/CXC/GSFC/B. J. Williams et al.; Optical: NASA/ESA/STScI
+                                    </div>
+                                    <div class="blog__outstanding-body--information">
+                                        <img src="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg" alt="" class="avatar__author">
+                                        <div class="information-detail">
+                                            <div class="information-detail-name">Lee Mohon</div>
+                                            <div class="information-detail-time">Last Updated: Sep 15, 2022</div>
+                                        </div>
+                                    </div>
+                                    <div class="blog__outstanding-body--content">
+                                        <p>
+                                            While astronomers have seen the debris from scores of exploded stars in the Milky Way and nearby galaxies, it is often difficult to determine the timeline of the star’s demise. By studying the spectacular remains of a supernova in a neighboring galaxy using NASA telescopes, a team of astronomers has found enough clues to help wind back the clock.
+                                                     
+                                            The supernova remnant called SNR 0519-69.0 (SNR 0519 for short) is the debris from an explosion of a white dwarf star. After reaching a critical mass, either by pulling matter from a companion star or merging with another white dwarf, the star underwent a thermonuclear explosion and was destroyed. Scientists use this type of supernova, called a Type Ia, for a wide range of scientific studies ranging from studies of thermonuclear explosions to measuring distances to galaxies across billions of light-years.
+                                                  
+                                            Astronomers combined the data from Chandra and Hubble with data from NASA’s retired Spitzer Space telescope to determine how long ago the star in SNR 0519 exploded and learn about the environment the supernova occurred in. This data provides scientists a chance to “rewind” the movie of the stellar evolution that has played out since and figure out when it got started.
+                                        </p>
+                                    </div>
+                                </div>
+                                <button class="button__view-more">
+                                    <a href="https://www.nasa.gov/mission_pages/chandra/images/setting-the-clock-on-a-stellar-explosion.html" class="button__view-more-link">View More</a>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- solar system and beyond -->
+                        <div class="solar__system">
+                            <div class="col l-7">
+                                <div class="blog__outstanding-body">
+                                    <div class="blog__outstanding-body--title">
+                                        Setting the Clock on a Stellar Explosion
+                                    </div>
+                                    <div class="blog__outstanding-body--subtitle">
+                                        Image credit: X-ray: NASA/CXC/GSFC/B. J. Williams et al.; Optical: NASA/ESA/STScI
+                                    </div>
+                                    <div class="blog__outstanding-body--information">
+                                        <img src="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg" alt="" class="avatar__author">
+                                        <div class="information-detail">
+                                            <div class="information-detail-name">Lee Mohon</div>
+                                            <div class="information-detail-time">Last Updated: Sep 15, 2022</div>
+                                        </div>
+                                    </div>
+                                    <div class="blog__outstanding-body--content">
+                                        <p>
+                                            While astronomers have seen the debris from scores of exploded stars in the Milky Way and nearby galaxies, it is often difficult to determine the timeline of the star’s demise. By studying the spectacular remains of a supernova in a neighboring galaxy using NASA telescopes, a team of astronomers has found enough clues to help wind back the clock.
+                                                     
+                                            The supernova remnant called SNR 0519-69.0 (SNR 0519 for short) is the debris from an explosion of a white dwarf star. After reaching a critical mass, either by pulling matter from a companion star or merging with another white dwarf, the star underwent a thermonuclear explosion and was destroyed. Scientists use this type of supernova, called a Type Ia, for a wide range of scientific studies ranging from studies of thermonuclear explosions to measuring distances to galaxies across billions of light-years.
+                                                  
+                                            Astronomers combined the data from Chandra and Hubble with data from NASA’s retired Spitzer Space telescope to determine how long ago the star in SNR 0519 exploded and learn about the environment the supernova occurred in. This data provides scientists a chance to “rewind” the movie of the stellar evolution that has played out since and figure out when it got started.
+                                        </p>
+                                    </div>
+                                </div>
+                                <button class="button__view-more">
+                                    <a href="https://www.nasa.gov/mission_pages/chandra/images/setting-the-clock-on-a-stellar-explosion.html" class="button__view-more-link">View More</a>
+                                </button>
+                            </div>
+                            <div class="col l-5">
+                                <img src="./accest/img/Pulsar.jpg" alt="" class="blog__outstanding-img">
+                                <h2 class="blog__outstanding-title-heading">Solar System And Beyond</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- promotional sales-->
+            <div class="product__shop">
+                <div class="grid wide">
+                    <div class="row sm-gutter">
+                        <div class="product__shop-head">
+                            <h1 class="product__shop-title">
+                                Promotional astronomy books
+                            </h1>
+                            <p class="product__shop-subtitle">
+                                explore the universe and the cosmos through the shop's offers
+                            </p>
+                        </div>
+                        <div class="product__shop-body">
+                            <div class="row sm-gutter">
+                                <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/a_self_teaching_guide-removebg-preview.png" alt="" class="product__item-img">
+                                        <div class="product__item-price">
+                                            <del>$23,49</del>
+                                            <span>$12,99</span>
+                                        </div>
+                                        <h2 class="product__item-name"> How the Universe Organizes Itself to Create Life, Consciousness, and Cosmic Complexity</h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">1200 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                                   <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/history_of_black_holes-removebg-preview.png" alt="" class="product__item-img">
+                                        <div class="product__item-price">
+                                            <del>$26,96</del>
+                                            <span>$20,22</span>
+                                        </div>
+                                        <h2 class="product__item-name">And why nearly everything you know about them is wrong Hardcover</h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">900 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                                   <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/earth_and_space-removebg-preview.png" alt="" class="product__item-img">
+                                        <div class="product__item-price">
+                                            <del>$25,42</del>
+                                            <span>$19,10</span>
+                                        </div>
+                                        <h2 class="product__item-name">Photographs from the Archives of NASA </h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">640 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                                   <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/quantum_physis-removebg-preview.png" alt="" class="product__item-img">
+                                        <div class="product__item-price">
+                                            <del>$18,45</del>
+                                            <span>$13,85</span>
+                                        </div>
+                                        <h2 class="product__item-name">Discover all the important features of Quantum Physics and the Law of Attraction</h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">920 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                                   <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/relativity_albert_einstein-removebg-preview.png" alt="" class="product__item-img">
+                                        <div class="product__item-price">
+                                            <del>$9,95</del>
+                                            <span>$7,50</span>
+                                        </div>
+                                        <h2 class="product__item-name">Relativity: The Special and General Theory</h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">550 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                                   <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/the_fabid_of_the_cosmos-removebg-preview.png" alt="" class="product__item-img">
+                                        <div class="product__item-price">
+                                            <del>$15,88</del>
+                                            <span>$11,91</span>
+                                        </div>
+                                        <h2 class="product__item-name">The Fabric of the Cosmos: Space, Time, and the Texture of Reality Paperback</h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">720 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                                   <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/cosmos-removebg-preview.png" alt="" class="product__item-img">
+                                        <div class="product__item-price">
+                                            <del>$14,79</del>
+                                            <span>$11.10</span>
+                                        </div>
+                                        <h2 class="product__item-name">Cosmos is one of the bestselling science books of all time</h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">8000 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                                   <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/the_end_of_everything.jpg" alt="" class="product__item-img">
+                                        <div class="product__item-price">
+                                            <del>$12,96</del>
+                                            <span>$9,72</span>
+                                        </div>
+                                        <h2 class="product__item-name">The End of Everything: (Astrophysically Speaking) </h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">231 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                                   <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/cosmos_a_personal_voyage-removebg-preview.png" alt="" class="product__item-img">
+                                        <div class="product__item-price">
+                                            <del>$17,74</del>
+                                            <span>$13,31</span>
+                                        </div>
+                                        <h2 class="product__item-name">Cosmos: A Personal Voyage </h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">240 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                                   <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/turn_left_at_orion-removebg-preview.png" alt="" class="product__item-img">
+                                        <div class="product__item-price">
+                                            <del>$30,25</del>
+                                            <span>$22,69</span>
+                                        </div>
+                                        <h2 class="product__item-name"> Hundreds of Night Sky Objects to See in a Home Telescope - and How to Find Them</h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">750 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                                   <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/a_brief_history_of_time.jpg" alt="" class="product__item-img">
+                                        <div class="product__item-price">
+                                            $16.25
+                                        </div>
+                                        <h2 class="product__item-name">A Brief History of Time: And Other Essays Hardcover</h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">550 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                                   <div class="col l-2">
+                                    <a href="" class="product__item">
+                                        <img src="./accest/img/lecture_tutorials.jpg" alt="" class="product__item-img">
+                                        <div class="product__item-price">$56,99</div>
+                                        <h2 class="product__item-name">Lecture-Tutorials for Introductory Astronomy</h2>
+                                        <div class="product__item-action">
+                                            <div class="product__item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__item-sold">3200 sold</div>
+                                        </div>
+                                        <button class="product__item-buy">Buy</button>
+                                    </a>
+                                   </div>
+                            </div>
+                            <button class="button__view-more">
+                                <a href="" class="button__view-more-link">View More</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- contact -->
+            <section class="contact hidden-contact" id="contactBox">
+                <div class="grid wide">
+                    <div class="row sm-gutter">
+                        <div class="col l-8">
+                            <div class="row sm-gutter">
+                                <div class="col l-7">
+                                    <img class="contact__img" src="./accest/img/contact.png" onclick="openinfo()">
+                                </div>
+                                <div class="col l-5">
+                                    <div class="title__contact">
+                                        <h2 class="heading__contact">get in touch</h2>
+                                        <p class="subheading__contact">Always within your reach</p>
+                                        <div class="connect-btn">
+                                            <a href="./contact.html" class="button__contact--link">
+                                                Contact Us
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="close-icon" onclick="closeinfo()"></div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+<script>
+    // contact
+    let contactBox = document.getElementById("contactBox");
+
+    function openinfo(){
+        contactBox.classList.remove("hidden-contact");
+    }
+
+    function closeinfo(){
+        contactBox.classList.add("hidden-contact");
+    }
+</script>
+</body>
+</html>
